@@ -6,3 +6,15 @@
     font-size: 50px;
     margin-bottom: 20px;
 }
+.custom-hover-icon-box img{
+    transition: transform 1s ease-out;
+}
+.custom-hover-icon-box:hover img{
+    transform: rotate(360deg);
+}
+.custom-hover-icon-box i{
+    transition: transform 1s ease-out;
+}
+.custom-hover-icon-box:hover i{
+    transform: rotate(360deg);
+}
