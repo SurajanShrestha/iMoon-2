@@ -1,3 +1,10 @@
+body.modal-open{
+    height: 100vh;
+    /*We put important to be even more specific than the inline style Bootstrap will put
+    in the body tag when the Modal pops up*/
+    overflow-y: hidden !important;
+}
+
 .custom-contact-box{
     background-color: rgb(76, 30, 81, 0.5);
 }
